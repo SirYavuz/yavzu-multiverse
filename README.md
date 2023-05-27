@@ -1,15 +1,21 @@
 # yavzu-multiverse
 Fivem Multiverse script
+
 [yavzu.space](https://yavzu.space/)
 
-if you use config.debug == true you can use chat commands.
+if you are using config.debug == true you can use chat commands.
 
-Create Verse Event
+Create New Universe Event
 TriggerServerEvent("Multiverse:Create", verseId, setCoords, coords)
 
-Join Verse Event
+Join any universe Event
 TriggerServerEvent("Multiverse:Join", verseId, setCoords, coords)
 
-Leave Verse Event
+Leave and back to main universe Event
 TriggerServerEvent("Multiverse:Leave", joinedVerseId, setCoords, coords)
+
+verseId = int
+setCoords = boolen
+coords = x,y,z,h
+
 
