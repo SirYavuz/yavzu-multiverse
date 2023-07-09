@@ -10,7 +10,7 @@ RegisterCommand("multiverse-create", function(source, args, rawCommand)
             if verseId ~= nil then 
                 TriggerServerEvent("Multiverse:Create", verseId, setCoords, coords)
             else 
-                print("^1[Multiverse]^0 Invalid arguments")
+                debug("^1[Multiverse]^0 Invalid arguments")
             end
         else 
             debug("You are already in a verse")
@@ -27,7 +27,7 @@ RegisterCommand("multiverse-join", function(source, args, rawCommand)
             if verseId ~= nil then 
                 TriggerServerEvent("Multiverse:Join", verseId, setCoords, coords)
             else 
-                print("^1[Multiverse]^0 Invalid arguments")
+                debug("^1[Multiverse]^0 Invalid arguments")
             end
         else 
             debug("You are already in a verse")
